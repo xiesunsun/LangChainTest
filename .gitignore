@@ -1,0 +1,48 @@
+# Python 缓存与编译文件
+__pycache__/
+*.py[cod]
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 打包与构建产物
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 临时文件与日志
+*.log
+logs/
+tmp/
+temp/
+
+# 测试与覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 编辑器与操作系统配置
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 环境配置文件
+.env
+.env.*
+*.env
+
+# LangChain 本地缓存与数据
+.langchain/
+vectorstores/
+indexstore/
+cache/
+
+# Jupyter 相关
+.ipynb_checkpoints/
+
